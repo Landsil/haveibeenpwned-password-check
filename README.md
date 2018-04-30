@@ -2,8 +2,7 @@ This script lets your users query offline file with SHA1 passwords taken from Ha
 https://haveibeenpwned.com/Passwords
 
 File is to big to open normally (obviously) but can we checked under two minutes.
-Format is:
-HASH:NUMBER
+Format is: HASH:NUMBER
 eg. 17BA0791499DB908433B80F37C5FBC89B870084B:22
 Hash is upper case, number is how many times this password appeared in the database.
 
