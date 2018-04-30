@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#debug thing
+#debug thing (remove # to activate)
 #set -x
 #exec 5> debug_output.txt
 #BASH_XTRACEFD="5"
