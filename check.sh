@@ -1,12 +1,11 @@
 #!/bin/bash
 
-#debug thing (remove # to activate)
+#debug thing
 #set -x
 #exec 5> debug_output.txt
 #BASH_XTRACEFD="5"
 #PS4='$LINENO: '
 
-#loop bit
 answer=y
 while [ "$answer" = y ]
 do
@@ -14,7 +13,6 @@ do
 # Ask user for password to check
 unset password
 prompt="Please type your password and press enter: "
-#print * when typing
 while IFS= read -p "$prompt" -r -s -n 1 char
 do
     if [[ $char == $'\0' ]]
@@ -32,12 +30,12 @@ clear
 echo "please wait...     (up to ~90s)"
 start=$SECONDS
 #Search database for hash and return line
-if test=$(grep -i "$passwordhash" ./p.txt) ; then
+if test=$(grep -i "$passwordhash" ./t.txt) ; then
      duration=$(( SECONDS - start ))
      result=$(sed -n -e 's/^.*://p'<<< $test)
      clear
      echo "Number of times you password appeared is ${result}"
-     echo "You shound probably change it"
+     echo "You should probably change it"
      echo "Test time was ${duration} seconds"
      echo "Would you like to check another one? [y/n] ?"
      read answer
