@@ -30,7 +30,7 @@ clear
 echo "please wait...     (up to ~90s)"
 start=$SECONDS
 #Search database for hash and return line
-if test=$(grep -i "$passwordhash" ./t.txt) ; then
+if test=$(grep -i "$passwordhash" ./p.txt) ; then
      duration=$(( SECONDS - start ))
      result=$(sed -n -e 's/^.*://p'<<< $test)
      clear
