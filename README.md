@@ -10,3 +10,5 @@ Script assumes file is named p.txt and sits next to script in same folder.
 
 I've made whole thing partially for fun/ learning experience and partially to give our users safe, 
 offline option to check passwords.
+
+Currently it holds two scripts, one in bash, one in python 3
