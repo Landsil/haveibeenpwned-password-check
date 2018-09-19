@@ -11,7 +11,7 @@ def passwordcheck():
     #Ask for Password
     print('Please type your password and press enter')
     password = getpass.getpass()
-    print("This may take up to 220s, common passwords get faster answer.")
+    print("This may take up to 220s.")
     start = time.time()
 
     #Hash Password
@@ -22,7 +22,7 @@ def passwordcheck():
     os.system('clear')  # For Linux/OS X
     #checkec upper hash agains file
     def check():
-        with open('p.txt', 'r') as inF:
+        with open('p_hash.txt', 'r') as inF:
             for line in inF:
                 if SHA1_done.upper() in line:
                     yes = line[41:]
