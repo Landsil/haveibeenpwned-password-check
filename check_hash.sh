@@ -27,10 +27,10 @@ done
 passwordhash=$(echo -n $password | sha1sum | awk '{print $1}')
 
 clear
-echo "please wait...     (up to ~90s)"
+echo "please wait...     (up to ~50s)"
 start=$SECONDS
 #Search database for hash and return line
-if test=$(grep -i "$passwordhash" ./p.txt) ; then
+if test=$(grep -i "$passwordhash" ./p_hash.txt) ; then
      duration=$(( SECONDS - start ))
      result=$(sed -n -e 's/^.*://p'<<< $test)
      clear
