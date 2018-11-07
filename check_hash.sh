@@ -6,6 +6,9 @@
 #BASH_XTRACEFD="5"
 #PS4='$LINENO: '
 
+#This script is confirm to work on Ubuntu 16.04 and 18.04
+#It DOESN'T work on MacOS :(
+
 answer=y
 while [ "$answer" = y ]
 do
