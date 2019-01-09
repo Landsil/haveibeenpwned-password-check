@@ -1,3 +1,6 @@
+Untill I have time to re-write them you have to assume they work on Lunux.
+I can't be bothered with Windows and Mac requesres removing few linces. (sys related, mostly cleaning)
+
 Those scripts lets your users query offline file with SHA1 passwords taken from Have I been Pwned.
 https://haveibeenpwned.com/Passwords
 
