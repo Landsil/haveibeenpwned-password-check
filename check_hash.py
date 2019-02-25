@@ -5,6 +5,8 @@ import sys
 import os
 import time
 
+# This python version works on all systems but is slower then bash.
+
 def passwordcheck():
     os.system('cls')  # For Windows
     os.system('clear')  # For Linux/OS X
