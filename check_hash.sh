@@ -1,13 +1,13 @@
 #!/bin/bash
 
-#debug thing
-#set -x
-#exec 5> debug_output.txt
-#BASH_XTRACEFD="5"
-#PS4='$LINENO: '
+# debug thing
+# set -x
+# exec 5> debug_output.txt
+# BASH_XTRACEFD="5"
+# PS4='$LINENO: '
 
-#This script is confirm to work on Ubuntu 16.04 and 18.04
-#It DOESN'T work on MacOS :(
+# This script is confirm to work on Ubuntu 16.04 and 18.04
+# TODO It DOESN'T work on MacOS without removing few lines
 
 answer=y
 while [ "$answer" = y ]
