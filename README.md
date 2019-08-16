@@ -4,7 +4,7 @@ I can't be bothered with Windows and Mac requires removing few lines. (sys relat
 Those scripts lets your users query offline file with SHA1 passwords taken from Have I been Pwned.
 https://haveibeenpwned.com/Passwords
 
-File is to big to open normally (obviously) but can be checked under two minutes.
+File is too big to open normally (obviously) but can be checked under two minutes.
 
 Format is: HASH:NUMBER
 eg. 11:22 is 17BA0791499DB908433B80F37C5FBC89B870084B:22
