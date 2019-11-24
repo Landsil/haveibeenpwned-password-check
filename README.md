@@ -1,5 +1,5 @@
 # HIBP offline check
-https://img.shields.io/github/license/landsil/haveibeenpwned-password-check 
+![GitHub](https://img.shields.io/github/license/landsil/haveibeenpwned-password-check)
 
 ## What it does
 These scripts let your users query an offline file with SHA1 passwords taken from [Have I been Pwned](https://haveibeenpwned.com/Passwords)
