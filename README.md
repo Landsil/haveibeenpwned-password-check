@@ -24,5 +24,5 @@ Currently it holds two scripts, one in bash, one in python 3, works on Linux, Ma
 #### [check_hash.py](https://github.com/Landsil/haveibeenpwned-password-check/blob/master/check_hash.py) contains:
  - `getpass.getpass` automated setup for taking passwords
  - Hashing and re-formating
- - `WITH` xxx `FOR` *** `IF`
+ - `WITH xxx FOR *** IF`
  
