@@ -1,7 +1,7 @@
 # HIBP offline check
 
 ## What is does
-Those scripts lets your users query offline file with SHA1 passwords taken from [Have I been Pwned] (https://haveibeenpwned.com/Passwords)
+Those scripts lets your users query offline file with SHA1 passwords taken from [Have I been Pwned}(https://haveibeenpwned.com/Passwords)
 
 File is too big to open normally (obviously) but can be checked under two minutes on a resnable machine.
 
